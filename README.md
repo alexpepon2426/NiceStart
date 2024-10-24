@@ -7,7 +7,8 @@
 ![signup activity](img/signup.png)
 >Estos son los avances de la pantalla de ***main***, esta actividad se encuentra aun en desarrollo
 ![main activity](img/main.png)
-
+> Queda añadida la pantalla **Profile**
+![profile_activity](img/profile.png)
 >[!IMPORTANT]
 >
 >Este Readme se encuentra sujeto a cambios, Fecha 23/10/24.

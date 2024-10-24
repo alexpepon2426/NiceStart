@@ -8,42 +8,33 @@
     tools:context=".Main"
     android:background="@drawable/gradient"
     >
+
     <androidx.constraintlayout.widget.Guideline
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/guia1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.10"
-        android:id="@+id/guia1"
         >
+
     </androidx.constraintlayout.widget.Guideline>
     <androidx.constraintlayout.widget.Guideline
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/guia2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.90"
-        android:id="@+id/guia2">
+        app:layout_constraintGuide_percent="0.900"
+        >
     </androidx.constraintlayout.widget.Guideline>
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="@id/main"
-        app:layout_constraintBottom_toBottomOf="@id/main"
+        android:text="GO PROFILE"
         app:layout_constraintStart_toStartOf="@id/guia1"
         app:layout_constraintEnd_toEndOf="@id/guia2"
-        android:text="Estas en el Main"
-        android:id="@+id/tv1"
-        android:textColor="@color/white"
-        >
-    </TextView>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="@id/main"
-        android:text="dasda"
-
+        app:layout_constraintBottom_toBottomOf="@id/main"
         >
 
     </Button>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
