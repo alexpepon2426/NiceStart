@@ -9,6 +9,9 @@
 ![main activity](img/main.png)
 > Queda añadida la pantalla **Profile**
 ![profile_activity](img/profile.png)
+>Se añade la pantalla Splash que es la que da inicio a la aplicacion
+![activity_splash](img/splash.png)
+
 >[!IMPORTANT]
 >
 >Este Readme se encuentra sujeto a cambios, Fecha 23/10/24.
