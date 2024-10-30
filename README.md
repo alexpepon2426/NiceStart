@@ -14,7 +14,7 @@
 > 
 > Se añaden animaciones nuevas a la Activity del **Splash**
 >Esta es la animación la Activity Splash
-![activity_splash](videos/splash.webm) 
+![activity_splash](videos/splash.gif) 
 ```    
 Código Java
 
