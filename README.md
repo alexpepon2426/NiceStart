@@ -11,10 +11,41 @@
 ![profile_activity](img/profile.png)
 >Se añade la pantalla Splash que es la que da inicio a la aplicacion
 ![activity_splash](img/splash.png)
+> 
+> Se añaden animaciones nuevas a la Activity del **Splash**
+>Esta es la animación la Activity Splash
+![activity_splash](videos/splash.webm) 
+```    
+Código Java
 
+    public class Splash extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        EdgeToEdge.enable(this);
+        setContentView(R.layout.activity_splash);
+        openApp();
+        ImageView thunder = findViewById(R.id.logosplash);
+        Animation myanim = AnimationUtils.loadAnimation(this,R.anim.rotate_ani);
+        thunder.startAnimation(myanim);
+        }
+```
+>Código de la animación de la rotación
+```
+Código del XML
+
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:fillAfter="true"
+    android:fromDegrees="0"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toDegrees="-90"
+    />
+```
 >[!IMPORTANT]
 >
->Este Readme se encuentra sujeto a cambios, Fecha 23/10/24.
+>Este Readme se encuentra sujeto a cambios, Fecha 30/10/24.
 
 >This repository is licensed under
->[Creativecommons Org Licenses By Sa 4](http://creativecommons.org/licenses/by-sa/4.0/)

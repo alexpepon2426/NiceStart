@@ -6,12 +6,15 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import org.w3c.dom.Text;
 
 public class Splash extends AppCompatActivity {
 
@@ -22,8 +25,12 @@ public class Splash extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         openApp();
         ImageView thunder = findViewById(R.id.logosplash);
+        TextView nom = findViewById(R.id.txtIni);
 
-        Animation myanim = AnimationUtils.loadAnimation(this,R.anim.blink);
+        Animation animTxt = AnimationUtils.loadAnimation(this,R.anim.fade);
+        nom.startAnimation(animTxt);
+
+        Animation myanim = AnimationUtils.loadAnimation(this,R.anim.rotate_ani);
         thunder.startAnimation(myanim);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
