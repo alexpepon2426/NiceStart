@@ -44,6 +44,10 @@ Código del XML
     android:toDegrees="-90"
     />
 ```
+
+>Se añaden a la Activity **Main** una appbar con una opcion para poder ir a la Activity de **Profile**
+>![activity_main](img/mainV2.png)
+
 >[!IMPORTANT]
 >
 >Este Readme se encuentra sujeto a cambios, Fecha 30/10/24.
