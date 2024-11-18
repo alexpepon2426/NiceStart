@@ -26,26 +26,40 @@
         app:layout_constraintGuide_percent="0.900"
         >
     </androidx.constraintlayout.widget.Guideline>
-    <Button android:id="@+id/botoncito"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Boton"
-        app:layout_constraintStart_toStartOf="@id/guia1"
-        app:layout_constraintEnd_toEndOf="@id/guia2"
-        app:layout_constraintTop_toTopOf="@id/main"
-        app:layout_constraintBottom_toBottomOf="@id/main"
-        >
+<!--    <Button android:id="@+id/botoncito"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Boton"-->
+<!--        app:layout_constraintStart_toStartOf="@id/guia1"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/guia2"-->
+<!--        app:layout_constraintTop_toTopOf="@id/main"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/main"-->
+<!--        >-->
 
-    </Button>
+<!--    </Button>-->
     <TextView
         android:id="@+id/vista"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/botoncito"
+        app:layout_constraintTop_toBottomOf="@id/main"
         app:layout_constraintStart_toStartOf="@id/guia1"
         app:layout_constraintEnd_toEndOf="@id/guia2"
         android:text="Hola"
         >
-
     </TextView>
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/myswipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="@id/guia1"
+        app:layout_constraintTop_toTopOf="@id/main"
+        >
+        <WebView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/vistaweb">
+        </WebView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
