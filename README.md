@@ -48,8 +48,11 @@ Código del XML
 >Se añaden a la Activity **Main** una appbar con una opcion para poder ir a la Activity de **Profile**
 >![activity_main](img/mainV2.png)
 > 
-> Se añade un **swipe refresh** que carga un webview a una pagina web con cada refresco
- <img src="videos/swipe_refresh.gif" width="150"></img>
+Se añade un **swipe refresh** que carga un webview a una pagina web con cada refresco
+<img src="videos/swipe_refresh.gif" width="180"></img>
+
+Se añade un **Dialogo modal**
+<img src="videos/Dialogo_modal.gif" width="180"></img>
 
 >[!IMPORTANT]
 >
