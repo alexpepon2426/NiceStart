@@ -1,67 +1,126 @@
-## NiceStart
+# 🌟 **NiceStart**
 
-## Este **repositorio** ira mostrando los distintos avances que se vayan produciendo a lo largo del proyecto
->Estos son los avances de la pantalla de ***login***, en el se puede ver los botones de registro e inicio de sesión con una imagen de fondo y un fondo con un gradiente
+## Introducción
+
+Este **repositorio** mostrará los distintos avances que se vayan produciendo a lo largo del proyecto.
+
+---
+
+## Avances por Pantalla
+
+### 📱 **Pantalla de Login**
+
+En esta pantalla se pueden observar los botones de **registro** e **inicio de sesión** con una imagen de fondo y un fondo con gradiente.
+
 ![login activity](img/login.png)
->Estos son los avances de la pantalla de ***signup***, posee dos botones, uno para iniciar sesión que nos llevaria a la actividad principal y otro para cancelar que sería para volver a la actividad de inicio
-![signup activity](img/signup.png)
->Estos son los avances de la pantalla de ***main***, esta actividad se encuentra aun en desarrollo
-![main activity](img/main.png)
-> Queda añadida la pantalla **Profile**
-![profile_activity](img/profile.png)
->Se añade la pantalla Splash que es la que da inicio a la aplicacion
-![activity_splash](img/splash.png)
-> 
-> Se añaden animaciones nuevas a la Activity del **Splash**
->Esta es la animación la Activity Splash
-![activity_splash](videos/splash.gif) 
-```    
-Código Java
 
-    public class Splash extends AppCompatActivity {
+---
+
+### 📝 **Pantalla de Signup**
+
+Esta pantalla contiene dos botones:
+
+1. **Iniciar sesión**: Lleva a la actividad principal.
+2. **Cancelar**: Regresa a la actividad de inicio.
+
+![signup activity](img/signup.png)
+
+---
+
+### 🏠 **Pantalla Principal (Main)**
+
+La actividad de la pantalla principal se encuentra **en desarrollo**.
+
+![main activity](img/main.png)
+
+---
+
+### 👤 **Pantalla de Profile**
+
+Se ha añadido la pantalla de **Profile**.
+
+![profile_activity](img/profile.png)
+
+---
+
+### 🎬 **Pantalla Splash**
+
+La pantalla **Splash** da inicio a la aplicación.
+
+![activity_splash](img/splash.png)
+
+---
+
+### ✨ **Animaciones en la Activity Splash**
+
+Se han añadido animaciones nuevas a la Activity del **Splash**.
+
+**Animación:**
+
+![activity_splash](videos/splash.gif)
+
+**Código Java:**
+
+```java
+public class Splash extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_splash);
         openApp();
+        
         ImageView thunder = findViewById(R.id.logosplash);
-        Animation myanim = AnimationUtils.loadAnimation(this,R.anim.rotate_ani);
+        Animation myanim = AnimationUtils.loadAnimation(this, R.anim.rotate_ani);
         thunder.startAnimation(myanim);
-        }
-```
->Código de la animación de la rotación
-```
-Código del XML
-
-<?xml version="1.0" encoding="utf-8"?>
-<rotate xmlns:android="http://schemas.android.com/apk/res/android"
-    android:duration="3000"
-    android:fillAfter="true"
-    android:fromDegrees="0"
-    android:pivotX="50%"
-    android:pivotY="50%"
-    android:toDegrees="-90"
-    />
+    }
+}
 ```
 
->Se añaden a la Activity **Main** una appbar con una opcion para poder ir a la Activity de **Profile**
->![activity_main](img/mainV2.png)
-> 
-Se añade un **swipe refresh** que carga un webview a una pagina web con cada refresco
 
-<img src="videos/swipe_refresh.gif" width="180"></img>
+### ⚙️ **Actualización de la Pantalla Main**
 
-Se añade un **Dialogo modal**
+Se añadió una **AppBar** con una opción para acceder a la **Activity de Profile**.
 
-<img src="videos/Dialogo_modal.gif" width="180"></img>
+![activity_main](img/mainV2.png)
 
-Esta implementado un **Menu Context** en el boton "BUG" que abre una pestaña llamada Settings
+---
+---
 
-<img src="videos/menu_context.gif" width="180"></img>
+### 🔄 **Swipe Refresh**
 
->[!IMPORTANT]
->
->Este Readme se encuentra sujeto a cambios, Fecha 30/10/24.
+Se añadió un **swipe refresh** que recarga un **WebView** con una página web en cada refresco.
 
->This repository is licensed under
+![swipe_refresh](videos/swipe_refresh.gif)
+
+---
+
+### 💬 **Diálogo Modal**
+
+Se ha implementado un **Diálogo Modal**.
+
+![Dialogo_modal](videos/Dialogo_modal.gif)
+
+---
+
+### 🛠️ **Menú Contextual**
+
+Se implementó un **Menú Contextual** en el botón **"BUG"** que abre una pestaña llamada **Settings**.
+
+![menu_context](videos/menu_context.gif)
+
+---
+
+## 🚨 **Importante**
+
+Este README está sujeto a cambios.  
+**Fecha de última actualización**: 30/10/24
+
+---
+
+## Licencia
+
+Este repositorio está **licenciado bajo**...
+
+
+
