@@ -5,8 +5,9 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="android:windowIsTranslucent">true</item>
     </style>
-    <style name="Theme.NiceStart.Actionbar" parent="Theme.MaterialComponents.DayNight">
 
+    <style name="Theme.NiceStart.Actionbar" parent="Theme.MaterialComponents.DayNight">
+        <item name="android:background">@color/orange</item>
     </style>
 
     <style name="Theme.NiceStart" parent="Base.Theme.NiceStart">
