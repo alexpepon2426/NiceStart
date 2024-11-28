@@ -56,6 +56,10 @@ Se añade un **Dialogo modal**
 
 <img src="videos/Dialogo_modal.gif" width="180"></img>
 
+Esta implementado un **Menu Context** en el boton "BUG" que abre una pestaña llamada Settings
+
+<img src="videos/menu_context.gif" width="180"></img>
+
 >[!IMPORTANT]
 >
 >Este Readme se encuentra sujeto a cambios, Fecha 30/10/24.
