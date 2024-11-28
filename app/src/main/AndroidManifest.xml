@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -15,6 +16,9 @@
         android:theme="@style/Theme.NiceStart"
         tools:targetApi="31">
         <activity
+            android:name=".Prueba"
+            android:exported="false" />
+        <activity
             android:name=".Splash"
             android:exported="true">
             <intent-filter>
@@ -23,12 +27,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Main"
             android:exported="true"
-            android:theme="@style/Theme.NiceStart.Actionbar"
-            />
+            android:theme="@style/Theme.NiceStart.Actionbar" />
         <activity
             android:name=".Profile"
             android:exported="true"
@@ -40,7 +42,7 @@
             android:theme="@style/Theme.NiceStart.Actionbar" />
         <activity
             android:name=".Login"
-            android:exported="true"/>
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"
