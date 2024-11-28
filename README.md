@@ -114,13 +114,12 @@ Se implementó un **Menú Contextual** en el botón **"BUG"** que abre una pesta
 ## 🚨 **Importante**
 
 Este README está sujeto a cambios.  
-**Fecha de última actualización**: 30/10/24
 
 ---
 
 ## Licencia
 
-Este repositorio está **licenciado bajo**...
+Este repositorio está **licenciado bajo Alex Riofrio**...
 
 
 
