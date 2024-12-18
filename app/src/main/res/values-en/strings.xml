@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NiceStart</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="nombre">name</string>
+    <string name="contrase_a">password</string>
+    <string name="contra">password</string>
+    <string name="contrasena">contraseña</string>
+    <string name="login">login</string>
+    <string name="email">email</string>
+    <string name="loginA">login</string>
+    <string name="signupA">signup</string>
+</resources>

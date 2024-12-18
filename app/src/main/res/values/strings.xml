@@ -8,4 +8,6 @@
     <string name="contrasena">Password</string>
     <string name="login">LOGIN</string>
     <string name="email">email</string>
+    <string name="loginA">LOGIN</string>
+    <string name="signupA">SIGNUP</string>
 </resources>

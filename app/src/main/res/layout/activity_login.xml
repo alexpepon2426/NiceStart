@@ -104,7 +104,7 @@
         app:layout_constraintTop_toTopOf="@id/main"
         app:layout_constraintBottom_toBottomOf="@id/main"
         android:id="@+id/btn1"
-        android:text="LOGIN"
+        android:text="@string/loginA"
         android:onClick="goMain"
         app:layout_constraintHorizontal_chainStyle="packed"
         style="@style/buttonflat">
@@ -114,7 +114,7 @@
         app:layout_constraintEnd_toEndOf="@id/guia2"
         app:layout_constraintTop_toBottomOf="@id/btn1"
         android:id="@+id/btn2"
-        android:text="SIGNUP"
+        android:text="@string/signupA"
         android:onClick="openSignup"
         style="@style/buttonoutlined">
     </Button>
