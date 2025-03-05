@@ -117,6 +117,30 @@ Se ha implementado una barra en la zona inferior de la pantalla para poder usar 
 ![main_bab](videos/bab.gif)
 
 ---
+### **Traducción al Inglés**
+
+Primero se crea en la carpeta value/strings se van a almacenar los distintos textos a usar para poder ser traducidos en otro idioma, para ello debemos de crear el archivo strings del idioma que queramos traducir
+y acto seguido cambiar el idioma del dispositivo móvil.
+
+Dentro del archivo string debería de tener esta estructura:
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NiceStart</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="nombre">name</string>
+    <string name="contrase_a">password</string>
+    <string name="contra">password</string>
+    <string name="contrasena">contraseña</string>
+    <string name="login">login</string>
+    <string name="email">email</string>
+    <string name="loginA">login</string>
+    <string name="signupA">signup</string>
+</resources>
+
+```
+---
 ### **Button Navigation**
 
 Con este componente podemos navegar entre los distintos fragments que hemos creado, se necesita una activity ViewPager en la cual no escribiremos nada.
